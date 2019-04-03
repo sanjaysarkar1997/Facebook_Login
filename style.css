@@ -3,10 +3,11 @@ body {
     margin: 0 auto;
     padding: 0;
     font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
-    /*background: linear-gradient(white,#D3D8E8);*/
 }
 
-.container {}
+.container {
+    overflow: hidden;
+}
 
 /*Header Part*/
 .header {
@@ -38,7 +39,7 @@ body {
     padding-top: 10px;
     padding-bottom: 32px;
     left: 300px;
-    position: relative;
+    position:relative;
 }
 
 .emailphone,
@@ -264,3 +265,48 @@ body {
 .createpage:hover{
     text-decoration: underline;
 }
+/*Make is Responsive*/
+/*
+@media screen and (max-width:768px){
+    body{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+    }
+   /* .container{
+        display: none;
+    }*/
+  /*  .header{
+        width: 768px;
+        height: 44px;
+        background-color: #3b5998;
+    }
+    .logo-div{
+        padding-top: 2px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .logo-link{
+        font-size: 23px;
+    }
+    .bodypart{
+        display: none;
+    }
+    .emailphone,
+    .password{
+    display: none;
+    }
+.login-div{
+    margin-top: 10px;
+    left: 0px;
+   
+}
+.email{
+    width: 90%;
+    margin-top: 10px;
+     background-color: gray;
+    z-index: 1020px;
+}
+}*/
