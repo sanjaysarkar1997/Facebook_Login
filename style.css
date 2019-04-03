@@ -99,16 +99,18 @@ body {
     height: 575px;
     width: 100%;
 }
-.info{
-    right:258px;
+
+.info {
+    right: 258px;
     position: relative;
 }
+
 .body-img {
     width: 536px;
     height: 194px;
     margin-top: -51px;
-right: -24px;
-position: relative
+    right: -24px;
+    position: relative
 }
 
 .textinfo {
@@ -120,28 +122,145 @@ position: relative
     word-spacing: -1px;
     font-family: Helvetica, Arial, sans-serif;
 }
+
 /*signup part*/
 /*.signup{
     position: relative;
     margin-top: -275px;
 }*/
-.ab{
+.bcde{
+    position: relative;
+    margin-top: -250px;
+    margin-left: 620px;
+}
+.ab {
     font-size: 36px;
     color: #333;
     font-weight: 600;
     font-family: sans-serif;
 }
-.bd{
+
+.bd {
     color: #1d2129;
     font-size: 19px;
     font-family: sans-serif;
 }
-.input{
+
+.input {
     border-radius: 5px;
     margin: 0;
     font-size: 18px;
     padding: 8px 10px;
     background-color: white;
-    border:1px solid #bdc7d8;
+    border: 1px solid #bdc7d8;
+    margin: 5px;
+}
 
+#signupemail {
+    width: 418px;
+}
+
+#newpass {
+    width: 418px;
+}
+
+.abcd {
+    color: #1d2129;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.birth {
+    position: relative;
+    right: 186px;
+    margin-top: 7px;
+}
+
+.dob {
+    position: relative;
+    right: 122px;
+    margin-top: 8px;
+}
+
+#day,
+#month,
+#year {
+    font-size: 13px;
+    height: 30px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #bdc7d8;
+    margin: -2px;
+}
+
+.doblink {
+    text-decoration: none;
+    color: blue;
+    font-size: 12px;
+}
+
+.doblink:hover {
+    text-decoration: underline;
+}
+
+.doblink-div {
+    position: relative;
+    left: 60px;
+    margin-top: -33px;
+}
+
+.gender-div {
+    position: relative;
+    right: 149px;
+    margin-top: 20px;
+}
+
+.condition {
+    color: #777;
+    font-size: 11px;
+}
+
+.condition-div {
+    width: 293px;
+    position: relative;
+    left: 225px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signup-btn {
+    font-size: 19px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border: 1px solid #2c5115;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    background-color: #5f9b4c;
+    margin-right: 226px;
+    margin-top: 10px;
+}
+
+.signup-btn:hover {
+    background: linear-gradient(#79bc64, #578843);
+}
+.createpage{
+    color: #365899;
+    text-decoration: none;
+    margin-right: 8px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 15px;
+}
+.ef{
+    font-size: 15px;
+}
+.createpage:hover{
+    text-decoration: underline;
 }
